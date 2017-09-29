@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="..\..\src\kernel.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{aa513fa8-cb25-40f9-9033-f6c0491697af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{5f700bef-cc8b-4a9a-9d93-cf3a63b13487}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\clusterDetection.cuh">
+      <Filter>include</Filter>
+    </None>
+    <None Include="..\..\include\clusterMarkerCorners.cuh">
+      <Filter>include</Filter>
+    </None>
+    <None Include="..\..\include\demosaicing.cuh">
+      <Filter>include</Filter>
+    </None>
+    <None Include="..\..\include\distortImage.cuh">
+      <Filter>include</Filter>
+    </None>
+    <None Include="..\..\include\EdgeDetectionKernel.cuh">
+      <Filter>include</Filter>
+    </None>
+    <None Include="..\..\include\imageRotateAndShift.cuh">
+      <Filter>include</Filter>
+    </None>
+    <None Include="..\..\include\loadAndStore2Buffer.cuh">
+      <Filter>include</Filter>
+    </None>
+    <None Include="..\..\include\markerRecognition.cuh">
+      <Filter>include</Filter>
+    </None>
+    <None Include="..\..\include\matchpattern.cuh">
+      <Filter>include</Filter>
+    </None>
+    <None Include="..\..\include\MD.cuh">
+      <Filter>include</Filter>
+    </None>
+    <None Include="..\..\include\radiusSearch.cuh">
+      <Filter>include</Filter>
+    </None>
+    <None Include="..\..\include\scharrEdgeDetection.cuh">
+      <Filter>include</Filter>
+    </None>
+    <None Include="..\..\include\struct.cuh">
+      <Filter>include</Filter>
+    </None>
+    <None Include="..\..\include\transformSolver.cuh">
+      <Filter>include</Filter>
+    </None>
+  </ItemGroup>
+</Project>
